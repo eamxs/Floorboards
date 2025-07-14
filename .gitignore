@@ -1,0 +1,5 @@
+cache/
+saves/
+.DS_Store
+*.rpyc
+*.rpymc
