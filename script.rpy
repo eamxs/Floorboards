@@ -63,7 +63,7 @@ m "She said she found a body under my floorboards..."
 e "It's rotting,"
 e "It smells."
 $ preferences.text_cps = 10
-m "*sign*, I know..."
+m "*sigh*, I know..."
 $ preferences.text_cps = 60
 e "We should record this case{w=0.3} and ask for an investigation from the police..."
 $ preferences.text_cps = 10
@@ -274,7 +274,7 @@ label superbia:
         scene room_pride
         show pride at center with fade
         m ".!!"
-        v "Be careful... {w=0.7}You dont want to hurt her self image..."
+        v "Be careful... {w=0.7}You don't want to hurt her self image..."
         $ renpy.save("checkpoint_pride")
         menu:
             "Say hello...":
@@ -305,7 +305,7 @@ label superbia:
                                 s "How dare you talk to me like that! {w=0.7}You are a peasant, and you will always be one!"
                                 s "You are not worthy of my time!"
                                 jump ending_pride1
-            "Complement her...":
+            "Compliment her...":
                 m "Hello...Wow, you are quite pretty..."
                 m "Can I ask something if you have time?"
                 s "{cps=60}Hah, I know."
@@ -317,7 +317,7 @@ label superbia:
         m "I found a body under my floorboards...and I need to find out who it is and how they died."
         s "...And how does that concern me?"
         m "I was wondering...if you saw anything or anyone strange or suspicious around?"
-        s "Oh yes, of corse you're asking me for help..."
+        s "Oh yes, of course you're asking me for help..."
         m "..."
         v "...{w=0.7}I think you should try visiting other friends of mine, they might be able to help you more than her right now..."
         m "..!!"
@@ -599,7 +599,7 @@ label Invidia:
                 i "They see me don't they..."
                 i "..."
                 i "..."
-                v "I think we we should go back to the others, maybe they can help you more than him right now."
+                v "I think we should go back to the others, maybe they can help you more than him right now."
                 menu:
                     "Visit the others":
                         jump sins
@@ -959,7 +959,7 @@ label Gula:
                 jump sins
             "Sir, you do not look very good.":
                 m "Sir, you do not look very good. Mind if I hold your drink? You may need a break."
-                m "(This can't be healthy, he looks one sip away from a heart attack. I need him concious to answer questions)"
+                m "(This can't be healthy, he looks one sip away from a heart attack. I need him conscious to answer questions)"
                 gl "My drink?! Of course you want to take my drink. Am I a deranged alcoholic to you? Some sort of disgusting, drunk? It's.. it's MY drink, alright? MINE. "
                 menu: 
                     " I am so sorry sir. I understand. You can keep it.":
@@ -970,13 +970,13 @@ label Gula:
                         jump sins
                     "I just need to ask a couple questions.":
                         m "I just need to ask a couple questions. It won't take long, I promise. But I need you to be.. err, healthy? Enough to answer them."
-                        gl "Oh… oh, so now you think that my brain is all… is all mush! Some gross, gross, mushy, thing? Right now, I could eat some mush. Some soft, soft, mush. My stomach… its so hungry, and you're looking like quite the meal, kid."
+                        gl "Oh… oh, so now you think that my brain is all… is all mush! Some gross, gross, mushy, thing? Right now, I could eat some mush. Some soft, soft, mush. My stomach... it's so hungry, and you're looking like quite the meal, kid."
                         menu:
                             "I am not food...":
                                 m "I am not food, sir. I just need to ask you some questions."
                                 hide gula
                                 show gula scary at center
-                                gl "Oh oh! Delicous food....Give me some more..."
+                                gl "Oh oh! Delicious food....Give me some more..."
                                 jump ending_gula
                             "Get out of here":
                                 jump sins
@@ -997,16 +997,16 @@ label Gula:
         v "Alright, maybe we could try to ask him something now..."
         v "Maybe he'll answer if it's...food related."
         menu:
-            "I think you saw something... You'retrying to forget.":
+            "I think you saw something... You're {w=0.3}trying to forget.":
                 m "I think you saw something... That's why you're eating and drinking so, so much. You're trying to forget."
                 "Gula stops chewing. Finally."
                 gl "...Maybe."
                 gl "Maybe I saw something. Maybe I didn't."
-                v "Don't trust him! {w=0.7}He's litteraly always drunk."
+                v "Don't trust him! {w=0.7}He's literally always drunk."
                 gl "I saw someone... watching. Behind you. Not a real person.\nA shadow with your eyes."
                 gl "I wanted to eat him too."
                 v "Are you {i}seriously{/i} going to trust a drunk man?"
-                gl "Here's...You're little hint..."
+                gl "Here's...Your little hint..."
                 gl "{i}He devoured guilt like food. Said it filled him. But it only made him hungrier.{/i}"
                 scene black
                 with fade
@@ -1036,7 +1036,7 @@ label Gula:
 
                 
 label pleasedont:
-    #add sins bg but distordedc
+    #add sins bg but distored
     scene sins glitch with fade
     play sound "audio/static.mp3" 
     v "...don't. Please. Don't go back...No...Don't trust anyone..." 
@@ -1098,7 +1098,7 @@ label ending_pride1:
 label ending_pride2:
     scene black
     with fade
-    v "Opps...my bad..."
+    v "Oops...my bad..."
     centered "Heat from her gaze incinerates your reflection in her shards of mirror; your body collapses\n\nEnding P2"
 
     menu:
@@ -1181,7 +1181,7 @@ label ending_l2:
 label ending_envy:
     scene black
     with fade
-    v "Becareful with your words next time...and listen to me!"
+    v "Be careful with your words next time...and listen to me!"
     centered "Invidia steps towards you...You start to see another you slowly appear in his window....\n\nEnding E1"
 
     menu:
@@ -1193,7 +1193,7 @@ label ending_envy:
 label ending_envy2:
     scene black
     with fade
-    v "I thought that would help...Look's like I was wrong.... :)"
+    v "I thought that would help...Looks like I was wrong.... :)"
     centered "He lifts your chin. You feel your identity slip — like a mask peeled off. You're left faceless, watching him wear you as he walks out.\n\nEnding E2"
 
     menu:
@@ -1218,7 +1218,7 @@ label ending_w2:
     scene black
     with fade
     centered "Pipes hiss. The heat becomes unbearable. You burst like a kettle.\n\nEnding W2"
-    v "That's why you dont poke the stove..."   
+    v "That's why you don't poke the stove..."   
 
     menu:
         "Load Last Autosave":
@@ -1229,7 +1229,7 @@ label ending_w2:
 label ending_w3:
     scene black
     with fade
-    v "(shaken)\nThat's not— they said that. I'm...{i}sure{/i}they said that... {cp=40}Why did he— why are they changing?"
+    v "(shaken)\nThat's not— they said that. I'm...{i}sure{/i}they said that... {cps=40}Why did he— why are they changing?"
     centered "No sound. Just heat. The walls collapse in on you, cinders and smoke.\n\nEnding W3"
 
     menu:
@@ -1288,7 +1288,7 @@ label ending_gula2:
     scene black
     with fade
     v "…You {i}could've{/i} tried being nice."
-    centered "Becareful with table manners next time.\n\nEnding Gu2"
+    centered "Be careful with table manners next time.\n\nEnding Gu2"
 
     menu:
         "Load Last Autosave":
@@ -1301,7 +1301,7 @@ label ending_gula3:
     with fade
     v "...Why are they all turning on us? I {i}told{/i} them..."
     v "I {i}told{/i} you not to trust them! Trust me!"
-    centered "Gula's stomac widen, revealing teeth and a mouth inside. He lunges forward. \n\nEnding Gu3"
+    centered "Gula's stomach widens, revealing teeth and a mouth inside. He lunges forward. \n\nEnding Gu3"
 
     menu:
         "Load Last Autosave":
