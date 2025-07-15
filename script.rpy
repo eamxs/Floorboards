@@ -80,7 +80,7 @@ e "Please, {w=0.3}this is too much for us to deal with alone."
 $ renpy.save("autosave1")
 
 menu:
-    "Yeah...It is...":
+    "Yeah...{w=0.5}It is...":
         m "Yeah...It is..."
         e "We'll get through this together."
         e "Let's hire an investigator..."
@@ -274,7 +274,7 @@ label superbia:
         scene room_pride
         show pride at center with fade
         m ".!!"
-        v "Be carfull... {w=0.7}You dont want to hurt her self image..."
+        v "Be careful... {w=0.7}You dont want to hurt her self image..."
         $ renpy.save("checkpoint_pride")
         menu:
             "Say hello...":
